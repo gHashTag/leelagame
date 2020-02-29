@@ -1,0 +1,57 @@
+@media only screen and (max-width: 720px) {
+    .table-list {
+        border: 1px solid #ddd;
+    }
+
+    .table-list > tbody > tr:first-child {
+        border-top: none;
+    }
+
+    .table-list > tbody > tr {
+        border-top: 1px solid #ddd;
+    }
+
+    .table-list > tbody > tr > td {
+        border: none
+    }
+
+    .table-list table, .table-list tbody, .table-list td, .table-list th, .table-list thead, .table-list tr {
+        display: block
+    }
+
+    .table-list table {
+        width: 100%
+    }
+
+    .table-list tfoot tr, .table-list thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px
+    }
+
+    .table-list td {
+        border: none !important;
+        padding-bottom: 5px;
+        position: relative;
+        padding-left: 30% !important;
+        white-space: normal;
+        text-align: left;
+        min-height: 35px
+    }
+
+    .table-list td, .table-list td * {
+        word-wrap: break-word
+    }
+
+    .table-list td:before {
+        position: absolute;
+        left: 10px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: 700;
+        word-wrap: break-word;
+        content: attr(data-title)
+    }
+}
