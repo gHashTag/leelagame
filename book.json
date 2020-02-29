@@ -3,7 +3,7 @@
   "language" : "ru",
   "author": "@playra",
   "description" : "Игра Лила или Лила Чакра открывает игрокам Вселенную через самопознание и исследование природы своего ума. Трансформационная, психологическая и божественная игра передававшаяся по семьям браминов от отца к сыну, на протяжении более 5500 лет.",
-  "plugins": ["table-list","yametrika", "ga", "toggle-chapters", "favicon", "disqus", "edit-link"],
+  "plugins": ["table-list","yametrika", "ga", "toggle-chapters", "custom-favicon", "disqus", "edit-link"],
   "pluginsConfig": {
     "yametrika": {
       "id": 47787721 
@@ -18,21 +18,6 @@
     "disqus": {
       "shortName": "leelachakra"
     },
-    "favicon":{
-      "shortcut": "/assets/images/favicon.ico",
-      "bookmark": "/assets/images/favicon.ico",
-      "appleTouch": "/assets/images/apple-touch-icon.png",
-      "appleTouchMore": {
-        "57x57": "/assets/images/apple-touch-icon-57x57.png",
-        "60x60": "/assets/images/apple-touch-icon-60x60.png",
-        "72x72": "/assets/images/apple-touch-icon-72x72.png",
-        "76x76": "/assets/images/apple-touch-icon-76x76.png",
-        "120x120": "/assets/images/apple-touch-icon-120x120.png",
-        "180x180": "/assets/images/apple-touch-icon-180x180.png",
-        "114x114": "/assets/images/apple-touch-icon-114x114.png",
-        "144x144": "/assets/images/apple-touch-icon-144x144.png",
-        "152x152": "/assets/images/apple-touch-icon-152x152.png"
-      }
-    }
+    "favicon":"/assets/images/favicon.ico"
   }
 }
